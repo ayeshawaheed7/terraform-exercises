@@ -12,11 +12,10 @@ pipeline {
             steps {
                 script {
                     echo 'provising eks cluster...'
-                    sh 'terraform init'
+                    sh 'terraform init -backend-config=envs/dev/backend-dev.hcl'
                     sh 'terraform apply -var-file envs/dev/dev.tfvars --auto-approve'
                 }
             }
         }
-
     }
 }
