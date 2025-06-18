@@ -1,0 +1,4 @@
+# local .terraform dir
+.terraform/
+
+notes
