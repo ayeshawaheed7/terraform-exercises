@@ -133,8 +133,6 @@ You should see your EKS worker nodes listed.
 * AWS credentials are securely injected into the pipeline.
 * Recommended: Configure separate pipelines for each environment to isolate infrastructure changes.
 
-> **Note:** CI/CD pipeline code is not included in this README for brevity. See `Jenkinsfile` in the repo.
-
 ---
 
 ## Requirements
