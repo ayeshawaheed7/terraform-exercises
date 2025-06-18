@@ -131,7 +131,7 @@ You should see your EKS worker nodes listed.
 * This project supports automated deployment through **Jenkins** or any CI/CD tool.
 * The pipeline handles Terraform initialization, planning, and applying changes for a given environment.
 * AWS credentials are securely injected into the pipeline.
-* Recommended: Configure separate pipelines for each environment to isolate infrastructure changes.
+* Configure separate pipelines for each environment to isolate infrastructure changes.
 
 ---
 
