@@ -18,7 +18,6 @@ module "eks" {
   eks_managed_node_groups = {
     nodegroup = {
       instance_types = ["t3.small"]
-      node_group_name = "my-app-nodegroup"
 
       min_size     = 1
       max_size     = 3
