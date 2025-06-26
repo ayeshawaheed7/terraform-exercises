@@ -137,7 +137,7 @@ You should see your EKS worker nodes listed.
 
 ## Requirements
 
-* [Terraform >= 1.3](https://www.terraform.io/downloads)
+* [Terraform](https://www.terraform.io/downloads)
 * [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
 * [kubectl](https://kubernetes.io/docs/tasks/tools/)
 * IAM permissions to manage EKS, VPC, EC2, and S3 resources
